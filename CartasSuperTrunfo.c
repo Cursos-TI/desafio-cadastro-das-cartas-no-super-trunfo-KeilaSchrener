@@ -7,7 +7,7 @@
 
 int main() {
     // Definição das variáveis carta 1
-    char Estado1[20];
+    char Estado1[2];
     char Codigo_carta1[4];
     char Nome_Cidade1[20];
     int Populacao1;
@@ -17,10 +17,10 @@ int main() {
 
     printf("Primeira carta \n");
 
-    printf("Nome do Estado: ");
-    scanf(" %19s", Estado1);
+    printf("Estado (Letra entre A-H): ");
+    scanf(" %1s", Estado1);
 
-    printf("Código da Carta: ");
+    printf("Código da Carta (A letra do estado seguida de um número de 01 a 04): ");
     scanf(" %3s", Codigo_carta1);
 
     printf("Nome da Cidade: ");
@@ -39,7 +39,7 @@ int main() {
     scanf(" %d", &Quantidade_Pontos_Turisticos1);
 
     // Definição das variáveis carta 2
-    char Estado2[20];
+    char Estado2[2];
     char Codigo_carta2[4];
     char Nome_Cidade2[20];
     int Populacao2;
@@ -49,10 +49,10 @@ int main() {
 
     printf("Segunda carta \n");
 
-    printf("Nome do Estado: ");
-    scanf(" %19s", Estado2);
+    printf("Estado (Letra entre A-H): ");
+    scanf(" %1s", Estado2);
 
-    printf("Código da Carta: ");
+    printf("Código da Carta (A letra do estado seguida de um número de 01 a 04): ");
     scanf(" %3s", Codigo_carta2);
 
     printf("Nome da Cidade: ");
